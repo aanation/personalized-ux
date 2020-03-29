@@ -4,7 +4,7 @@ const merge = require("webpack-merge");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const nodeExternals = require('webpack-node-externals');
 
-const outputDirPath = path.resolve("./build");
+const outputDirPath = path.resolve(process.env.BUILD_DIR || "./build");
 const entryPointPath = path.resolve("./src/index.ts");
 
 const devServerHost = "localhost";
@@ -15,7 +15,7 @@ const commonConfig = {
 	output: {
 		path: outputDirPath,
 		publicPath: "/",
-		filename: "js/[name].[hash].js",
+		filename: "personalized-ux.min.js",
 		chunkFilename: "js/[id].[hash].js"
 	},
 	resolve: {
