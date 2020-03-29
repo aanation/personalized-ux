@@ -86,6 +86,7 @@ $ cd ./example/vue
 $ npm install
 $ npm run serve
 ```
+Dev server стартует на порту 8080
 
 ## React
 ```
@@ -93,6 +94,7 @@ $ cd ./example/react
 $ npm install
 $ npm run start
 ```
+Dev server стартует на порту 3000
 
 # Сведения о реализации
 
