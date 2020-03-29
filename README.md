@@ -82,16 +82,16 @@ const Modal = () => {
 
 ## Vue
 ```
-$ cd ./examples/vue
-$ yarn install
-$ yarn serve
+$ cd ./example/vue
+$ npm install
+$ npm run serve
 ```
 
 ## React
 ```
-$ cd ./examples/react
-$ yarn install
-$ yarn start
+$ cd ./example/react
+$ npm install
+$ npm run start
 ```
 
 # Сведения о реализации
